@@ -28,7 +28,12 @@ const PageOne = () => {
           Submit
         </Button>
       </div>
-      <img src={img} alt="" style={{ height: "30rem", marginTop: "-5rem" }} />
+      <img
+        className="imageOne"
+        src={img}
+        alt=""
+        style={{ height: "30rem", marginTop: "-5rem" }}
+      />
     </div>
   );
 };
