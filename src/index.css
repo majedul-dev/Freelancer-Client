@@ -8,3 +8,12 @@
     display: none;
   }
 }
+
+@media (max-width: 555px) {
+  .pageOne > h1 {
+    font-size: 2.2rem !important;
+  }
+  .pageOne > p {
+    font-size: 0.9rem !important;
+  }
+}

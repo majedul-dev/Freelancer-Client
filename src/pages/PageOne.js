@@ -6,13 +6,13 @@ const PageOne = () => {
   return (
     <div
       style={{
-        marginTop: "8rem",
+        marginTop: "6rem",
         display: "flex",
         justifyContent: "space-between",
         flex: "1",
       }}
     >
-      <div>
+      <div className="pageOne">
         <h1 style={{ fontSize: "3.5rem" }}>
           Welcome to your Digital Front Door!
         </h1>
